@@ -5,7 +5,6 @@
 	"author": "cafeed28",
 	"license": "MIT",
 	"scripts": {
-		"build": "tsc -p tsconfig.json && cp -r src/views dist/views",
 		"start": "node dist/app.js"
 	},
 	"dependencies": {
