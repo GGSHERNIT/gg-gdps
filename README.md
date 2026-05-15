@@ -3,3 +3,7 @@ Geometry Dash server emulator on NodeJS and MongoDB, based on [Cvolton/GMDprivat
 
 # Starting
 `yarn run start`
+
+# Note
+
+This is just a Fork from ZeroCore for my GDPS
