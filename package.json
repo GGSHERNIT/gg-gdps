@@ -5,9 +5,8 @@
 	"author": "cafeed28",
 	"license": "MIT",
 	"scripts": {
-		"build": "tsc -p tsconfig.json && "build": "tsc -p tsconfig.json && cp -r src/views dist/views"
- 
-		"start": "cd dist & forever --colors -c \"node --trace-warnings --inspect=0.0.0.0:9229\" app.js"
+		"build": "tsc -p tsconfig.json && cp -r src/views dist/views",
+		"start": "node dist/app.js"
 	},
 	"dependencies": {
 		"@types/jsonwebtoken": "^8.5.5",
